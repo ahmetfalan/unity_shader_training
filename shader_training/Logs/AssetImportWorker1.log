@@ -1,0 +1,203 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8143 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/unity_shader_training/shader_training
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49872
+Successfully changed project path to: D:/unity_shader_training/shader_training
+D:/unity_shader_training/shader_training
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity_shader_training/shader_training/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX550/550 Series (ID=0x699f)
+    Vendor:   
+    VRAM:     2028 MB
+    Driver:   30.0.13017.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003131 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.411 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3411ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.280 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2281ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (2035ms)
+			LoadAssemblies (1146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 3.441400 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.041200 ms MarkObjects: 3.094000 ms  DeleteObjects: 0.121400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127dd3288965ec9af23d6d9f4df300c5') in 0.038837 seconds 
+  Import took 0.066583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1677.464006 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e607c22d1d2a5ec00c3f858ad2ab31') in 0.001864 seconds 
+  Import took 0.018296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.098100 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(8ea3b539af18ea44482ffd360c85bf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c558f138e89a3d624ac4a4600bcf98') in 0.001624 seconds 
+  Import took 0.004455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3575.318006 seconds.
+  path: Assets/Unlit_Hologram.mat
+  artifactKey: Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unlit_Hologram.mat using Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183e4559f69e926a8a697fadefdfdf27') in 4.233682 seconds 
+  Import took 4.282833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1620.372093 seconds.
+  path: Assets/Unlit_Hologram.mat
+  artifactKey: Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unlit_Hologram.mat using Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b80b58bbc54d1ee33791a22376d10e') in 0.082307 seconds 
+  Import took 0.085023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.798081 seconds.
+  path: Assets/Unlit_Hologram.mat
+  artifactKey: Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unlit_Hologram.mat using Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e16d4f50b7b64584efa356a388cb2') in 0.053069 seconds 
+  Import took 0.090830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.084859 seconds.
+  path: Assets/Unlit_Hologram.mat
+  artifactKey: Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unlit_Hologram.mat using Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be857ec7105334374f395cb6c1b223d') in 0.028342 seconds 
+  Import took 0.058230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.203644 seconds.
+  path: Assets/NewShader.shader
+  artifactKey: Guid(253f1ac8192e738418bea7387523e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewShader.shader using Guid(253f1ac8192e738418bea7387523e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df8ecfba08b22e3aa27d00b60372fa2') in 0.027620 seconds 
+  Import took 0.055860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.896316 seconds.
+  path: Assets/Unlit_Hologram.mat
+  artifactKey: Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unlit_Hologram.mat using Guid(8bee742ab195ad14e8e13cdeb6c58f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b2de400c0035093ddd1f0b1e0514e6') in 0.032475 seconds 
+  Import took 0.077777 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
